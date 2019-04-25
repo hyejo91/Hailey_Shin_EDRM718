@@ -9,7 +9,7 @@ HSB2 <- read_csv("hsb2.csv")
 HSB2$ses <- factor(HSB2$ses, levels = c(1:3), labels = c("Low", "Mid", "High"))
 ```
 
-## Relationshi of SES to Math Scores
+## Relationshi of SES to Reading Scores
 
 This section will look at the relationship of socioeconimic status to math scores. I will begin with the summary of the math scores.
 
